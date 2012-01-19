@@ -1,0 +1,6 @@
+# Temp files
+*swp
+*~
+
+# Build dir
+build/*
