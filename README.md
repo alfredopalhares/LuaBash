@@ -16,6 +16,12 @@ Simple
 
     $ make 
 
+### Support
+  
+For bugs and another questions open a ticket in the [Isssues Page](https://github.com/masterkorp/LuaBash/issues).
+
+You can find me in #lua on irc.freenode.org and in last case mail me trough the email that is on my [Github Profile](https://github.com/masterkorp)
+
 ### License
 
 This program is free software; you can redistribute it and/or modify it under the terms of 
