@@ -20,7 +20,7 @@ Simple
   
 For bugs and another questions open a ticket in the [Isssues Page](https://github.com/masterkorp/LuaBash/issues).
 
-You can find me in #lua on irc.freenode.org and in last case mail me trough the email that is on my [Github Profile](https://github.com/masterkorp)
+You can find me in #lua on irc.freenode.org and in last case mail me through the email that is on my [Github Profile](https://github.com/masterkorp)
 
 ### License
 
