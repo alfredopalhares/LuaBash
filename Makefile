@@ -6,6 +6,7 @@ SDIR=src
 ODIR=build
 DDIR=doc
 CFLAGS=-shared -fPIC -Wall
+preffix=/usr/share
 # END
 
 # Get targets and objects
@@ -24,9 +25,9 @@ clean:
 
 install: 
 	@echo Installing the library..
-	install -Dm 644 $(ODIR)/luabash.so /usr/share/luabash/luabash.so
+	install -Dm 644 $(ODIR)/luabash.so $(DESTDIR)$(preffix)/luabash/luabash.so
 	@echo Installing the documentation...
-	install -Dm 644 README.md /usr/share/doc/luabash/README.md
-	install -Dm 644 $(DDIR)/example.sh  /usr/share/doc/luabash/doc/example.sh
-	install -Dm 644 $(DDIR)/internal.lua  /usr/share/doc/luabash/doc/internal.lua
+	install -Dm 644 README.md $(DESTDIR)$(preffix)/doc/luabash/README.md
+	install -Dm 644 $(DDIR)/example.sh  $(DESTDIR)$(preffix)/doc/luabash/doc/example.sh
+	install -Dm 644 $(DDIR)/internal.lua  $(DESTDIR)$(preffix)/doc/luabash/doc/internal.lua
 
