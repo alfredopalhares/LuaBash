@@ -5,7 +5,7 @@ CC=gcc
 SDIR=src
 ODIR=build
 DDIR=doc
-CFLAGS=-shared -fPIC -Wall
+CFLAGS=-llua -shared -fPIC -Wall
 preffix=/usr/share
 # END
 
