@@ -1,0 +1,46 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "LuaBash"
+PROJECT_NUMBER         =
+PROJECT_BRIEF          = "A Bridge between Lua and Bash"
+PROJECT_LOGO           =
+OUTPUT_DIRECTORY       = build/doc
+
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+
+# Build options
+
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+
+GENERATE_TODOLIST      = YES
+GENERATE_BUGLIST       = YES
+GENERATE_DEPRECATEDLIST= YES
+
+
+# Input
+
+INPUT                  = src/
+
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          = *c
+RECURSIVE              = YES
+
+# Output
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+
+
+GENERATE_TREEVIEW      = YES
+TREEVIEW_WIDTH         = 250
+SEARCHENGINE           = YES
+
+
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+
+
+PDF_HYPERLINKS         = YES
+USE_PDFLATEX           = YES
