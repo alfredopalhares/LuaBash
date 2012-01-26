@@ -13,12 +13,18 @@ preffix=/usr/share
 TARGETS := $(wildcard  $(SDIR)/*.c)
 OBJECTS := $(patsubst $(SDIR)%.c, $(ODIR)%.so, $(TARGETS))
 
+.PHONY:  clean doc
+
 build: $(TARGETS)
 	@echo Making build dir
 	@mkdir -p $(ODIR)
 	$(CC) -o $(OBJECTS) $(TARGETS) $(CFLAGS)	
 
-.PHONY:  clean
+doc: 
+	@echo Building doc
+	@mkdir -p $(ODIR)
+	doxygen -s Doxyfile
+
 clean: 
 	@rm -rf $(ODIR)
 	@echo Done
