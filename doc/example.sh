@@ -2,7 +2,7 @@
 # This is a simple lua bash example.
 
 # init lua bash and load code chunk from file internal.lua.
-enable -f ../luabash.so luabash
+enable -f ./build/luabash.so luabash
 luabash load ./internal.lua
 
 # perform some arithmetic using a lua function called "plus".
