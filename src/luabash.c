@@ -391,13 +391,15 @@ static int init_luabash()
       return EXECUTION_FAILURE;     
     }
 
-    L=luaL_newstate ();
+    L=luaL_newstate();
     if (!L) {
       fprintf(stderr, "lua bash error: failed to initialize lua state\n");
       return EXECUTION_FAILURE;     
     }
 
     luaL_openlibs(L);
+    // FIXME: This function is now deprecated
+    // Use http://www.lua.org/manual/5.2/manual.html#luaL_setfuncs   
     luaL_register(L, "bash", bashlib);
     
     initialized=1;
