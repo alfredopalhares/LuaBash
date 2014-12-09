@@ -5,7 +5,7 @@ CC=gcc
 SDIR=src
 ODIR=build
 DDIR=doc
-CFLAGS=-llua -shared -fPIC -Wall
+CFLAGS=$(shell pkg-config --cflags --libs lua5.2) -shared -fPIC -Wall
 preffix=/usr/share
 # END
 
