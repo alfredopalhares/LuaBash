@@ -27,7 +27,7 @@ You can find me in #lua on irc.freenode.org and in last case mail me through the
 This program is free software; you can redistribute it and/or modify it under the terms of 
 the GNU General Public License as published by the Free Software Foundation version 3 of the License. 
 
-A copy of theGNU General Public License can be found in [GNU Licence Page](http://www.gnu.org/licenses/gpl.html)
+A copy of the GNU General Public License can be found in [GNU Licence Page](http://www.gnu.org/licenses/gpl.html)
 
 ### Credits
 
