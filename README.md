@@ -3,7 +3,7 @@ LuaBash
 
 ### Description
 
-LuaBash is a lua library with the intent of bridging lua and bash together. 
+LuaBash is a lua library with the intent of bridging lua and bash together.
 You can get variables, cross functions and more
 
 ### Documentation
@@ -12,22 +12,22 @@ For now there is an example in doc dir, a doxygen doc of the source and the api 
 
 ### Build
 
-Simple 
+Simple
 
-    $ make 
+    $ make
 
 ### Support
-  
+
 For bugs and another questions open a ticket in the [Isssues Page](https://github.com/masterkorp/LuaBash/issues).
 
 You can find me in #lua on irc.freenode.org and in last case mail me through the email that is on my [Github Profile](https://github.com/masterkorp)
 
 ### License
 
-This program is free software; you can redistribute it and/or modify it under the terms of 
-the GNU General Public License as published by the Free Software Foundation version 3 of the License. 
+This program is free software; you can redistribute it and/or modify it under the terms of 
+the GNU General Public License as published by the Free Software Foundation version 3 of the License. 
 
-A copy of theGNU General Public License can be found in [GNU Licence Page](http://www.gnu.org/licenses/gpl.html)
+A copy of theGNU General Public License can be found in [GNU Licence Page](http://www.gnu.org/licenses/gpl.html)
 
 ### Credits
 
