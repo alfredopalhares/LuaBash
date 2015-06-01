@@ -3,7 +3,7 @@ LuaBash
 
 ### Description
 
-LuaBash is a lua library with the intent of bridiging lua and bash together. 
+LuaBash is a lua library with the intent of bridging lua and bash together. 
 You can get variables, cross functions and more
 
 ### Documentation
